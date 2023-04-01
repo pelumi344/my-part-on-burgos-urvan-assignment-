@@ -1,0 +1,374 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo_div{
+    margin-left: 150px; 
+}
+.logo{
+    width: 200px;
+    height: 80px;
+
+}
+.header_div{
+    display: flex;
+    box-shadow: 0 1px 2px 0px grey;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+  nav li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav li a:hover {
+    color: #fbb731;
+  }
+  .shop{
+    color: #fbb731;
+  }
+  nav li {
+    margin-right: 50px;
+  }
+  .checked {
+    color: #fbb731;
+    margin-left: 10px;
+  }
+  .hero_firehouse{
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .firehouse_img{
+    /* margin-left: 150px; */
+    height: 500px;
+    width: 450px;
+  }
+  .firehouse_div{
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+  .reviews{
+    display: flex;
+    align-items: center;
+  }
+  .reviews2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #979797;
+  }
+  .promo{
+    display: flex;
+    align-items: center;
+  }
+  .promo2{
+    text-decoration: line-through;
+    font-size: large;
+    color: #979797;
+  }
+  .promo1{
+    margin-left: 20px;
+    color: #fbb731;
+    font-size: x-large;
+  }
+  .sub_images{
+    display: flex;
+    height: 100px;
+    
+  }
+
+  .sub_image{
+    margin-left: 10px;
+    width: 100px;
+  }
+  .firehouse{
+    font-weight: 800;
+    font-size: 60px;
+    color: #1B2A49;
+  }
+  
+  .cart{
+    background-color: #fbb731;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: transparent;
+    text-decoration: none;
+    color: #1B2A49;
+  }
+  .cart:hover{
+    background-color: #ff6900;
+    color: white;
+  }
+  .description_div{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 35%;
+    display: flex;
+  }
+  .description{
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f37335 ;
+    border-color: #f37335 ;
+  }
+  .reviewss{
+    margin-left: 20px;
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: transparent;
+
+  }
+  .reviewss:hover{
+    color: #f37335 ;
+    border-color: #f37335 ;
+
+  }
+  .desc{
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 50px;
+  }
+  .desc1{
+    margin-left: 33%;
+  }
+  .weight{
+    background-color: #edeff3;
+    width: 85%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+  }
+  .weight1{
+    margin-left: 20px;
+  }
+  .weight2{
+    margin-left: 70px;
+  }
+  .ingredients{
+    display: flex;
+    background-color: #dce0e9;
+    width: 85%;
+  }
+  .ingre1{
+    margin-left: 20px;
+
+  }
+  .ingre2{
+    margin-left: 50px;
+
+  }
+  .related{
+    margin-left: 41%;
+    margin-top: 80px;
+    align-items: center;
+  }
+  .related_product{
+    display: flex;
+    margin-left: 13%;
+  }
+  .related_image{
+    width: 250px;
+    height: 250px;
+  }
+  .related_product1{
+    margin-left: 20px;
+  }
+  .related_product1:hover{
+    color: #f37335;
+  }
+
+  .add2cart{
+    background-color: #fbb731;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    text-decoration: none;
+    color: #1B2A49;
+    
+  }
+  .add2cart:hover{
+    background-color: #ff6900;
+    color: white;
+  }
+  .amount{
+    color: #f37335;
+  }
+
+  footer{
+    background: radial-gradient(100% 100% at 50% 0%, #365368 0%, #1e2f40 100%);
+    height: 700px;
+    align-items: center;
+    margin-top: 100px;
+
+
+  }
+  .cards{
+    display: flex;
+  }
+  .main_footer{
+    display: flex;
+    /* background: radial-gradient(100% 100% at 50% 0%, #365368 0%, #1e2f40 100%); */
+    margin-left: 150px;
+    /* align-items: center; */
+  }
+  .cardsandlogo{
+    color: #dedede;
+    /* margin-top: 100px; */
+  }
+  .kazz{
+    display: flex;
+    align-items: center;
+  }
+  .callus{
+    margin-left: 70px;
+    align-items: center;
+    margin-top: 100px;
+    color: #dedede;
+  }
+  .callus1{
+    margin-left: 70px;
+    align-items: center;
+    margin-top: 100px;
+    color: #fbb731;
+  }
+  .calluss{
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 110px;
+  }
+
+  .contactus{
+    margin-left: 70px;
+    align-items: center;
+    margin-top: 310px;
+
+  }
+  .latest{
+    margin-left: 70px;
+    margin-top: 310px;
+  }
+  .dedede{
+    width: 70px;
+    height: 70px;
+  }
+  .tired{
+    margin-left: 20px;
+  }
+  .fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;}
+
+
+    /* menulist */
+    .yow{
+      color: #fbb731;
+    }
+    .heroic{
+      /* background-image: url(".images/"), url("");
+      background-repeat: no-repeat; 
+       */
+      /* background-color: #cccccc; */
+      height: 400px;
+      font-family: 'Nunito Sans', sans-serif;
+      color: #dedede;
+      /* margin-top: 20px; */
+      
+    }
+    .imgdiv{
+        background-image:url('../images/—Pngtree—thickened\ big\ burger\ promotion\ simple_993790.jpg');
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      
+    
+    .menulist{
+      font-weight: 800px;
+      font-size: 80px;
+    }
+    .types{
+      display: flex;
+      margin-top: 100px;
+      margin-left: 10%;
+      align-items: center;
+    }
+    .typeimg{
+      width: 250px;
+      height: 290px;
+      margin-left: 20px;
+    }
+    .typer{
+      align-items: center;
+      margin-left: 90px;
+      color: #1B2A49;
+    }
+
+    .typeimg111{
+      width: 240px;
+      height: 240px;
+    }
+    .long{
+      display: flex;
+      align-items: center;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .kwen{
+      text-decoration: none;
+      color: #1B2A49
+    }
+    .kwen:hover{
+      color: #f37335;
+    }
+    .going{
+      text-decoration: none;
+      color: #1B2A49
+    }
+    .rightside{
+      margin-left: 80px;
+    }
+    .rightside11{
+      margin-left: 20px;
+    }
+    .promo4{
+      margin-left: 20px;
+      color: #f37335;
+      font-size: x-large;
+      font-weight: 800;
+
+    }
+    .combo{
+      font-weight: 800px;
+      font-size: 50px;
+      margin-left: 10%;
+      color: #1B2A49;
+    }
+
+    .kazz22{
+      display: flex;
+      align-items: center;}
+      .hero2{
+        margin-left: 150px;
+      }
+  .lastly{
+    color: #dedede;
+    align-items: center;
+    margin-left: 20%;
+  }
